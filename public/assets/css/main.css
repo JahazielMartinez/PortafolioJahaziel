@@ -4031,25 +4031,25 @@ textarea.form-control {
   transition: 0.2s ease-in-out;
 }
 
-.section-pricing-1 .card-pricing-1 {
+.section-certifications-1 .card-certifications-1 {
   background: linear-gradient(var(--tc-bg-1), var(--tc-bg-1)) padding-box, var(--tc-linear-3) border-box;
   border: 1px solid transparent;
 }
-.section-pricing-1 .accordion .card {
+.section-certifications-1 .accordion .card {
   background: linear-gradient(var(--tc-bg-1), var(--tc-bg-1)) padding-box, var(--tc-linear-3) border-box;
   border: 1px solid transparent;
 }
-.section-pricing-1 .accordion .card .card-header {
+.section-certifications-1 .accordion .card .card-header {
   background-color: transparent;
 }
-.section-pricing-1 .accordion .card .card-header a .arrow {
+.section-certifications-1 .accordion .card .card-header a .arrow {
   transform: rotate(-45deg);
   transition: all 0.08s linear;
 }
-.section-pricing-1 .accordion .card .card-header a .arrow i {
+.section-certifications-1 .accordion .card .card-header a .arrow i {
   color: #4cda25;
 }
-.section-pricing-1 .accordion .card .card-header a.collapsed .arrow {
+.section-certifications-1 .accordion .card .card-header a.collapsed .arrow {
   transform: rotate(0deg);
 }
 

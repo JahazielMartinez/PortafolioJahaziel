@@ -105,7 +105,7 @@ export default function Pricing() {
       </section>
 
       <div>
-        <section className="section-pricing-1 -130 pb-150">
+        <section className="section-certifications-1 -130 pb-150">
           <div className="container">
             <div className="button-group filter-button-group filter-menu-active text-center">
               <button className={activeBtn("*")} onClick={handleFilterKeyChange("*")}>

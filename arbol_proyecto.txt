@@ -16,7 +16,7 @@
 │   ├── layout.tsx
 │   ├── page.module.css
 │   ├── page.tsx
-│   ├── pricing
+│   ├── certifications
 │   │   └── page.tsx
 │   ├── services
 │   │   └── page.tsx
