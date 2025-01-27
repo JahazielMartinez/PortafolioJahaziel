@@ -1,5 +1,6 @@
 
 import Layout from "@/components/layout/Layout"
+import Skills2 from "@/components/sections/Skills2"
 import Link from "next/link"
 export default function Services() {
 
@@ -8,412 +9,113 @@ export default function Services() {
 
 			<Layout headerStyle={1} footerStyle={1}>
 				<div>
-					<section className="section-details pt-10 pb-100">
+					<section className="section-details pt-9 pb-100">
 						<div className="container">
 							<div className="row">
 								<div className="col-lg-8 mx-lg-auto mb-8">
 									<div className="text-center">
-										<h3 className="ds-3 mt-3 mb-4 text-dark">How to Create a Seamless Mobile Experience</h3>
+										<h3 className="ds-3 mt-3 mb-4 text-dark">My Tech, Design, and Leadership Story</h3>
 										<p className="text-300 fs-5 mb-0">
-											A great mobile experience can significantly enhance user satisfaction, increase <br />
-											engagement, and boost your app's success. Here’s a comprehensive guide to help you <br />
-											create a seamless mobile experience for your users.
+											A journey defined by innovation, creativity, and impactful leadership—combining technical expertise, design excellence, and the ability to guide teams toward meaningful and transformative results.
 										</p>
 									</div>
 								</div>
-								<img src="/assets/imgs/blog/blog-1/img-background.png" alt="" />
-								<div className="col-lg-10 mx-lg-auto mt-8">
+
+								<img className="col-lg-8 mx-lg-auto border-linear-2 rounded-4 zero-padding" src="https://firebasestorage.googleapis.com/v0/b/webdesignoficial-5dcdd.appspot.com/o/Portadas2025%2Fb021ea24-7b13-42b1-9714-94043fdcee08.jpg?alt=media&token=7cae2fe7-649e-469f-9d31-dd79cacf59a6" alt="" />
+								<p className="text-300 text-center mt-3 text-300">A unique team that marked an unforgettable chapter in my career.</p>
+
+								<div className="col-lg-12 mx-lg-auto mt-8">
 									<div className="row">
-										<div className="col-lg-9">
-											<h5>Prioritize User-Centric Design</h5>
-											<h5 className="fs-5 fw-medium">Understand Your Users</h5>
-											<p className="text-300">Conduct thorough user research to understand your target audience’s needs, preferences, and pain points. Use surveys, interviews, and usability testing to gather valuable insights.</p>
-											<h5 className="fs-5 fw-medium">Simplify Navigation</h5>
-											<p className="text-300">Design a clean and intuitive navigation structure. Ensure users can easily find what they’re looking for without feeling overwhelmed. Use familiar icons and clear labels to guide them.</p>
-											<h5 className="mt-6">Optimize Performance</h5>
-											<h5 className="fs-5 fw-medium">Fast Loading Times</h5>
-											<p className="text-300">Optimize your app to load quickly. Users expect instant gratification, and slow load times can lead to frustration and app abandonment. Use efficient coding practices and minimize the use of heavy graphics.</p>
-											<h5 className="fs-5 fw-medium">Smooth Animations</h5>
-											<p className="text-300">Ensure animations and transitions are smooth and do not hinder the app’s performance. Well-executed animations can enhance the user experience by providing visual feedback and making interactions feel natural.</p>
-											<h5 className="fs-5 fw-medium">Offline Access</h5>
-											<p className="text-300">Provide offline capabilities for essential features. Allowing users to access certain functionalities without an internet connection can greatly improve their experience, especially in areas with poor connectivity.</p>
-											<div className="d-flex align-items-center my-6">
-												<img src="/assets/imgs/blog/blog-1/img-10.png" alt="" />
-												<div className="d-md-flex flex-column d-none gap-3 ms-3">
-													<img src="/assets/imgs/blog/blog-1/img-11.png" alt="" />
-													<img src="/assets/imgs/blog/blog-1/img-12.png" alt="" />
+										<div className="col-lg-10 mx-lg-auto">
+											{/* PrimerBloque */}
+											<h3 className="text-center">It all started with simple curiosity</h3>
+											<h5 className="fs-5 fw-medium mt-6">A literal clean slate that changed everything</h5>
+											<p className="text-300">
+												Ever since I was a child, I’ve been fascinated by how things work. In elementary school, I would marvel at websites and wonder how they could look so “beautiful.” I didn’t even know where to begin, but that curiosity drove me to explore design and technology on my own.
+												<br /> Everything changed in high school when I got my first computer. I installed design programs, combined graphics with web pages, and experimented so much that I broke more things than I fixed.
+												Design a clean and intuitive navigation structure. Ensure users can easily find what they’re looking for without feeling overwhelmed. Use familiar icons and clear labels to guide them.
+											</p>
+
+											{/* SegundoBloque */}
+											<h5 className="fs-5 fw-medium mt-6">Design as a bridge to connect with people</h5>
+											<p className="text-300">
+												My first formal introduction to web design was at CCH Azcapotzalco, where I pursued a technical career in web development and design. That’s where I realized technology wasn’t just functional—it was emotional. Design has the power to change how people interact with the digital world. Even before I discovered UX/UI design, I knew I wanted to create experiences that were intuitive and visually engaging.
+												<br />Years later, I worked on Renoshop.mx, a project that allowed me to elevate my vision for UX/UI design. The stakeholders wanted something beyond WordPress or Shopify templates, and that’s when I proposed tools like React, Node.js, and AWS. Not only did I implement a scalable e-commerce platform, but I also designed a custom editor that fulfilled the company’s vision. My work didn’t stop there—I took
+												a step further by identifying outdated processes in other departments and proposed automation solutions. I led the implementation of an ERP system that transformed operational efficiency. These achievements earned me the role of CTO, proving that technology isn’t just a set of tools—it’s a way to drive business success and innovation.
+											</p>
+
+											{/* TercerBloque */}
+											<h5 className="fs-5 fw-medium mt-6">Leadership: building teams and breaking barriers</h5>
+											<p className="text-300">
+												Since high school, I’ve naturally gravitated toward leadership roles. I’ve always enjoyed guiding others, helping them uncover their potential, and working together toward a shared goal. One of the most challenging moments in my leadership journey was at LALEO, where the IT department was perceived as egotistical and disconnected from the rest of the company. I made it my mission to change that.
+												I started by listening to my team’s frustrations and connecting them with other departments. Something as simple as organizing a "carnita asada" (a BBQ gathering) one Friday was enough to break communication barriers. That small gesture brought the IT team closer to the rest of the company, fostering collaboration and improving the overall work environment.
+												<br />At Ministerios La Hermosa, I faced another challenge during the pandemic. People couldn’t physically attend church, which disrupted their spiritual connection. Leveraging my IT and UX knowledge, I led the implementation of a live-streaming system that allowed people to stay connected and engaged. This experience taught me that technology can be a powerful tool to unite people during difficult times.
+											</p>
+
+											{/* LALEO TEAM IT */}
+											<div className="row masonry-active align-items-center mt-6">
+												<div className="d-flex justify-content-center align-items-center my-2">
+													<img className="border-linear-2 rounded-4" src="https://firebasestorage.googleapis.com/v0/b/webdesignoficial-5dcdd.appspot.com/o/Portadas2025%2FTeamIT%20LALEO.jpg?alt=media&token=bbb818bb-44a6-44a4-9311-60ab28295ec3" alt="" />
+													<div className="d-md-flex flex-column d-none gap-3 ms-3">
+														<img className="border-linear-2 rounded-4" src="https://firebasestorage.googleapis.com/v0/b/webdesignoficial-5dcdd.appspot.com/o/Portadas2025%2FTeamITLALEO-REno.jpg?alt=media&token=45b44ed2-c2ea-4c0e-b75d-ee9227aee89f" alt="" />
+														<img className="border-linear-2 rounded-4" src="https://firebasestorage.googleapis.com/v0/b/webdesignoficial-5dcdd.appspot.com/o/Portadas2025%2FTeamIT%20Reno.jpg?alt=media&token=0008d79a-82ff-4603-ad7d-a3e9bcddc4f6" alt="" />
+													</div>
 												</div>
+												<p className="text-300 text-center mt-1 text-300">A tribute to the teams that defined some of the best chapters in my career.</p>
 											</div>
-											<h5>Ensure Robust Security</h5>
-											<h5 className="fs-5 fw-medium">Data Protection</h5>
-											<p className="text-300">Implement strong security measures to protect user data. Use encryption, secure authentication methods, and regular security audits to safeguard sensitive information.</p>
-											<h5 className="fs-5 fw-medium">Transparent Policies</h5>
-											<p className="text-300">Be transparent about your data collection and usage policies. Provide users with clear information about how their data is used and give them control over their privacy settings.</p>
-											<h5 className="fs-5 fw-medium">Regular Updates</h5>
-											<p className="text-300">Keep your app updated with the latest security patches and improvements. Regular updates not only enhance security but also show users that you are actively maintaining and improving the app.</p>
+
+											{/* CuartoBloque */}
+											<h5 className="fs-5 fw-medium mt-4">Innovation in the face of technological challenges</h5>
+											<p className="text-300">
+												Innovation has always been a driving force in my career. At LALEO, I implemented an AI-powered tool that transformed the experience for students and doctors, increasing conversion rates for book and medical equipment sales. At Renoshop.mx, I designed a technological ecosystem that automated key processes and significantly enhanced the company’s operational efficiency.
+												I implemented security cameras, optimized workflows in their workshop, and elevated their technological infrastructure to unprecedented levels.
+												<br />However, not everything has been smooth sailing. Technological challenges and high expectations have often tested my limits. But I’ve always viewed obstacles as opportunities to learn and grow. From designing fluid animations that improved user engagement to implementing offline capabilities in critical applications, every project has been a step forward in creating more impactful and creative solutions.
+											</p>
+
+											{/* QuintoBloque */}
+											<h5 className="fs-5 fw-medium mt-6">What motivates me and where I’m headed</h5>
+											<p className="text-300">
+												What keeps me motivated is my passion for continuous learning and the impact I leave on people and businesses. Throughout my career, I’ve pursued certifications and courses in various fields, not just to gain knowledge, but to find new ways to solve problems. My ultimate goal is clear: to create creative and advanced solutions that reflect values, address user needs, and foster meaningful connections.
+											</p>
+
+											{/* SextoBloque */}
+											<h5 className="fs-5 fw-medium mt-6">A message to those reading my story</h5>
+											<p className="text-300">
+												My journey is a reflection of my core values: responsibility, honesty, integrity, and empathy. Every project, every team, and every accomplishment has been an opportunity to demonstrate that when you work with passion and purpose, you can transform lives. My message is simple: success isn’t just about results—it’s about the positive impact you leave on people and the world around you.
+											</p>
+
+											{/* Conclusion */}
 											<div className="border-linear-3 rounded-4 p-lg-6 p-md-4 p-3 mt-6">
 												<h4>Conclusion</h4>
-												<p className="text-300 mt-4">Creating a seamless mobile experience requires a user-centric approach, performance optimization, responsive design, user engagement strategies, and robust security measures. By focusing on these key areas, you can build a mobile app that not only meets user expectations but also stands out in the competitive app market. Remember, a great mobile experience can turn users into loyal advocates, driving the success of your app.</p>
+												<h5 className="fs-5 fw-medium mt-6">A journey defined by curiosity, learning, and impact</h5>
+												<p className="text-300 mt-4">
+													Throughout my life, every step I’ve taken has been guided by curiosity and a desire to learn. From the experiments that led me to wipe operating systems to leading multidisciplinary teams and transforming businesses, my purpose has always been the same: to solve problems with creativity, empathy, and a clear vision. Every project, every challenge, and every achievement has taught me that true impact goes beyond technical results; it’s reflected in the people, the connections we create, and the solutions we build together.
+													<br />This is not the end of my story—it’s only the beginning of everything that’s still to come.
+												</p>
 											</div>
+
+											{/* Reconocimiento Jaz */}
+											<div className="row masonry-active pb-60 align-items-center mt-1">
+												<div className="d-flex justify-content-center align-items-center my-2">
+													<img className="border-linear-2 rounded-4" src="https://firebasestorage.googleapis.com/v0/b/webdesignoficial-5dcdd.appspot.com/o/Portadas2025%2FreconocimientoReno.jpg?alt=media&token=06255bf9-88a5-4fa2-b364-eafb7a43ec80" alt="" />
+
+												</div>
+												<p className="text-300 text-center mt-1 text-300">A recognition that reflects effort, dedication, and passion for technology</p>
+											</div>
+
+											{/* Border */}
+											<div className="container border-top pt-60 "></div>
+
+											<h2 className="text-center mt-6">My Arsenal of Skills and Expertise</h2>
+											{/* Skills 2*/}
+											<Skills2 />
 										</div>
 									</div>
 								</div>
-							</div>
-						</div>
-					</section>
-					<section className="section-service-list pt-120 pb-150">
-						<div className="container">
-							<div className="row">
-								<div className="col-lg-8 mx-lg-auto">
-									<div className="text-center">
-										<Link href="/#" className="btn btn-gradient d-inline-block text-uppercase">
-											My Services
-										</Link>
-										<h3 className="ds-3 mt-3 mb-4 text-dark">
-											Transforming Ideas
-											<span className="text-300">into Intuitive Designs for</span>
-											Engaging User
-											<span className="text-300">Experiences</span>
-										</h3>
-										<p className="text-300 fs-5">
-											With expertise in mobile app and web design, I transform ideas into visually <br />
-											stunning and user-friendly interfaces that captivate and retain users. <br />
-											Explore my work and see design in action.
-										</p>
-									</div>
-									<div className="card-scroll mt-8">
-										<div className="cards">
-											<div className="card-custom" data-index={0}>
-												<div className="card__inner bg-6 px-md-5 py-md-6 px-3 py-4">
-													<div className="card__title d-flex align-items-center mb-md-4 mb-3">
-														<Link href="/#" className="card_title_link">
-															<h3 className="fw-semibold mb-2">UI/UX Design</h3>
-															<p className="mb-0">Creative. Unique. Reality. </p>
-														</Link>
-														<Link href="/#" className="card-icon border text-dark border-dark icon-shape ms-auto icon-md rounded-circle">
-															<i className="ri-arrow-right-up-line" />
-														</Link>
-													</div>
-													<div className="card__image-container zoom-img position-relative">
-														<img className="card__image" src="/assets/imgs/services-list/img-1.png" alt="" />
-														<Link href="/#" className="card-image-overlay position-absolute start-0 end-0 w-100 h-100" />
-													</div>
-													<div className="card__content mt-lg-5 mt-md-4 mt-3 pb-4">
-														<div className="d-md-flex content">
-															<p className="fs-7 text-dark text-uppercase w-md-40 pe-8 mb-2 d-inline-block">
-																User Research
-															</p>
-															<p className="card__description text-300 fs-6 mb-0">
-																Conducting thorough user research through surveys, interviews, and usability studies to understand target audiences and their needs, ensuring designs are user-centric and effective.
-															</p>
-														</div>
-														<div className="d-md-flex content">
-															<p className="fs-7 text-dark text-uppercase w-md-40 pe-8 mb-2 d-inline-block">
-																Wireframing and Prototyping
-															</p>
-															<p className="card__description text-300 fs-6 mb-0">
-																Designing detailed wireframes and interactive prototypes to visualize and test user flows and interactions, allowing for early feedback and iterative improvements.
-															</p>
-														</div>
-														<div className="d-md-flex content">
-															<p className="fs-7 text-dark text-uppercase w-md-40 pe-8 mb-2 d-inline-block">
-																User Testing
-															</p>
-															<p className="card__description text-300 fs-6 mb-0">
-																Implementing comprehensive user testing sessions to gather feedback, identify pain points, and make data-driven design improvements, ensuring a seamless user experience.
-															</p>
-														</div>
-													</div>
-												</div>
-											</div>
-											<div className="card-custom" data-index={0}>
-												<div className="card__inner bg-6 px-md-5 py-md-6 px-3 py-4">
-													<div className="card__title d-flex align-items-center mb-md-4 mb-3">
-														<Link href="/#" className="card_title_link">
-															<h3 className="fw-semibold mb-2">Mobile App Design</h3>
-															<p className="mb-0">Creative. Unique. Reality. </p>
-														</Link>
-														<Link href="/#" className="card-icon border text-dark border-dark icon-shape ms-auto icon-md rounded-circle">
-															<i className="ri-arrow-right-up-line" />
-														</Link>
-													</div>
-													<div className="card__image-container zoom-img position-relative">
-														<img className="card__image" src="/assets/imgs/services-list/img-2.png" alt="" />
-														<Link href="/#" className="card-image-overlay position-absolute start-0 end-0 w-100 h-100" />
-													</div>
-													<div className="card__content mt-lg-5 mt-md-4 mt-3 pb-4">
-														<div className="d-md-flex content">
-															<p className="fs-7 text-dark text-uppercase w-md-40 pe-8 mb-2 d-inline-block">
-																Cross-Platform Design
-															</p>
-															<p className="card__description text-300 fs-6 mb-0">
-																Creating designs that work smoothly on both iOS and Android platforms, ensuring a consistent and high-quality user experience regardless of the device.
-															</p>
-														</div>
-														<div className="d-md-flex content">
-															<p className="fs-7 text-dark text-uppercase w-md-40 pe-8 mb-2 d-inline-block">
-																Interactive Prototypes
-															</p>
-															<p className="card__description text-300 fs-6 mb-0">
-																Developing interactive prototypes to demonstrate app functionality allowing stakeholders to experience the app before development begins.
-															</p>
-														</div>
-														<div className="d-md-flex content">
-															<p className="fs-7 text-dark text-uppercase w-md-40 pe-8 mb-2 d-inline-block">
-																Consistent Branding
-															</p>
-															<p className="card__description text-300 fs-6 mb-0">
-																Ensuring the app design is consistent with your brand’s identity and aesthetics, maintaining brand recognition and trust across all touchpoints.
-															</p>
-														</div>
-													</div>
-												</div>
-											</div>
-											<div className="card-custom" data-index={0}>
-												<div className="card__inner bg-6 px-md-5 py-md-6 px-3 py-4">
-													<div className="card__title d-flex align-items-center mb-md-4 mb-3">
-														<Link href="/#" className="card_title_link">
-															<h3 className="fw-semibold mb-2">Brand Identity Design</h3>
-															<p className="mb-0">Creative. Unique. Reality. </p>
-														</Link>
-														<Link href="/#" className="card-icon border text-dark border-dark icon-shape ms-auto icon-md rounded-circle">
-															<i className="ri-arrow-right-up-line" />
-														</Link>
-													</div>
-													<div className="card__image-container zoom-img position-relative">
-														<img className="card__image" src="/assets/imgs/services-list/img-3.png" alt="" />
-														<Link href="/#" className="card-image-overlay position-absolute start-0 end-0 w-100 h-100" />
-													</div>
-													<div className="card__content mt-lg-5 mt-md-4 mt-3 pb-4">
-														<div className="d-md-flex content">
-															<p className="fs-7 text-dark text-uppercase w-md-40 pe-8 mb-2 d-inline-block">
-																Logo Design
-															</p>
-															<p className="card__description text-300 fs-6 mb-0">
-																Creating memorable and impactful logos that represent your brand’s essence and values, helping you stand out in a crowded marketplace.
-															</p>
-														</div>
-														<div className="d-md-flex content">
-															<p className="fs-7 text-dark text-uppercase w-md-40 pe-8 mb-2 d-inline-block">
-																Brand Guidelines
-															</p>
-															<p className="card__description text-300 fs-6 mb-0">
-																Developing comprehensive brand guidelines that include typography, color visual styles to maintain consistency across all platforms and media.
-															</p>
-														</div>
-														<div className="d-md-flex content">
-															<p className="fs-7 text-dark text-uppercase w-md-40 pe-8 mb-2 d-inline-block">
-																Visual Assets:
-															</p>
-															<p className="card__description text-300 fs-6 mb-0">
-																Designing a variety of visual assets, including business cards, letterheads, to ensure all brand communications are professional and cohesive.
-															</p>
-														</div>
-													</div>
-												</div>
-											</div>
-											<div className="card-custom" data-index={0}>
-												<div className="card__inner bg-6 px-md-5 py-md-6 px-3 py-4">
-													<div className="card__title d-flex align-items-center mb-md-4 mb-3">
-														<Link href="/#" className="card_title_link">
-															<h3 className="fw-semibold mb-2">Web Development</h3>
-															<p className="mb-0">Creative. Unique. Reality. </p>
-														</Link>
-														<Link href="/#" className="card-icon border text-dark border-dark icon-shape ms-auto icon-md rounded-circle">
-															<i className="ri-arrow-right-up-line" />
-														</Link>
-													</div>
-													<div className="card__image-container zoom-img position-relative">
-														<img className="card__image" src="/assets/imgs/services-list/img-4.png" alt="" />
-														<Link href="/#" className="card-image-overlay position-absolute start-0 end-0 w-100 h-100" />
-													</div>
-													<div className="card__content mt-lg-5 mt-md-4 mt-3 pb-4">
-														<div className="d-md-flex content">
-															<p className="fs-7 text-dark text-uppercase w-md-40 pe-8 mb-2 d-inline-block">
-																Front-End Development
-															</p>
-															<p className="card__description text-300 fs-6 mb-0">
-																Utilizing modern technologies like HTML, CSS, and JavaScript to create responsive and interactive web pages that provide an engaging user experience.
-															</p>
-														</div>
-														<div className="d-md-flex content">
-															<p className="fs-7 text-dark text-uppercase w-md-40 pe-8 mb-2 d-inline-block">
-																Back-End Development
-															</p>
-															<p className="card__description text-300 fs-6 mb-0">
-																Implementing server-side logic and database management with technologies such as Node.js, Python, or Ruby on Rails to ensure seamless performance and data integrity.
-															</p>
-														</div>
-														<div className="d-md-flex content">
-															<p className="fs-7 text-dark text-uppercase w-md-40 pe-8 mb-2 d-inline-block">
-																Content Management Systems
-															</p>
-															<p className="card__description text-300 fs-6 mb-0">
-																Integrating user-friendly CMS platforms like WordPress, Drupal, or custom solutions for easy content updates, allowing non-technical users to manage website content efficiently.
-															</p>
-														</div>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</section>
-					{/*Static 1*/}
-					<div className="section-static-1 position-relative overflow-hidden z-0 py-8 bg-6">
-						<div className="container">
-							<div className="inner">
-								<div className="row align-items-center justify-content-between">
-									<div className="col-lg-auto col-md-6">
-										<div className="counter-item-cover counter-item">
-											<div className="content text-center mx-auto d-flex align-items-center">
-												<span className="ds-3 count text-primary-1 fw-medium my-0">+<span className="odometer ds-1 text-dark fw-semibold">12</span></span>
-												<div className="text-start ms-2">
-													<p className="fs-5 mb-0 text-300">Year of</p>
-													<p className="fs-5 mb-0 fw-bold">Experience</p>
-												</div>
-											</div>
-										</div>
-									</div>
-									<div className="col-lg-auto col-md-6">
-										<div className="counter-item-cover counter-item">
-											<div className="content text-center mx-auto d-flex align-items-center">
-												<span className="ds-3 count text-primary-1 fw-medium my-0">+<span className="odometer ds-1 text-dark fw-semibold">250</span></span>
-												<div className="text-start ms-2">
-													<p className="fs-5 mb-0 text-300">Projects</p>
-													<p className="fs-5 mb-0 fw-bold">Completed</p>
-												</div>
-											</div>
-										</div>
-									</div>
-									<div className="col-lg-auto col-md-6">
-										<div className="counter-item-cover counter-item">
-											<div className="content text-center mx-auto d-flex align-items-center">
-												<span className="ds-3 count text-primary-1 fw-medium my-0">+<span className="odometer ds-1 text-dark fw-semibold">680</span></span>
-												<div className="text-start ms-2">
-													<p className="fs-5 mb-0 text-300">Satisfied</p>
-													<p className="fs-5 mb-0 fw-bold">Happy Clients</p>
-												</div>
-											</div>
-										</div>
-									</div>
-									<div className="col-lg-auto col-md-6">
-										<div className="counter-item-cover counter-item">
-											<div className="content text-center mx-auto d-flex align-items-center">
-												<span className="ds-3 count text-primary-1 fw-medium my-0">+<span className="odometer ds-1 text-dark fw-semibold">18</span></span>
-												<div className="text-start ms-2">
-													<p className="fs-5 mb-0 text-300">Awards</p>
-													<p className="fs-5 mb-0 fw-bold">Won Received</p>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					{/* Contact 1*/}
-					<section id="contact" className="section-contact-1 bg-900 position-relative pt-150 pb-lg-250 pb-150 overflow-hidden">
-						<div className="container position-relative z-1">
-							<h3 className="ds-3 mt-3 mb-3 text-primary-1">Get in touch</h3>
-							<span className="fs-5 fw-medium text-200">
-								I'm always excited to take on new projects and collaborate with innovative minds. If you
-								<br />
-								have a project in mind or just want to chat about design, feel free to reach out!
-							</span>
-							<div className="row mt-8">
-								<div className="col-lg-4 d-flex flex-column">
-									<div className="d-flex align-items-center mb-4 position-relative d-inline-flex">
-										<div className="bg-white icon-flip position-relative icon-shape icon-xxl border-linear-2 border-2 rounded-4">
-											<i className="ri-phone-fill text-primary-1 fs-26" />
-										</div>
-										<div className="ps-3">
-											<span className="text-400 fs-5">Phone Number</span>
-											<h6 className="mb-0">+1-234-567-8901</h6>
-										</div>
-										<Link href="/tel:+1-234-567-8901" className="position-absolute top-0 start-0 w-100 h-100" />
-									</div>
-									<div className="d-flex align-items-center mb-4 position-relative d-inline-flex">
-										<div className="bg-white icon-flip position-relative icon-shape icon-xxl border-linear-2 border-2 rounded-4">
-											<i className="ri-mail-fill text-primary-1 fs-26" />
-										</div>
-										<div className="ps-3">
-											<span className="text-400 fs-5">Email</span>
-											<h6 className="mb-0">contact@JahazielMartinez</h6>
-										</div>
-										<Link href="/mailto:someone@example.com" className="position-absolute top-0 start-0 w-100 h-100" />
-									</div>
-									<div className="d-flex align-items-center mb-4 position-relative d-inline-flex">
-										<div className="bg-white icon-flip position-relative icon-shape icon-xxl border-linear-2 border-2 rounded-4">
-											<i className="ri-skype-fill text-primary-1 fs-26" />
-										</div>
-										<div className="ps-3">
-											<span className="text-400 fs-5">Skype</span>
-											<h6 className="mb-0">WilliamDesignUX</h6>
-										</div>
-										<Link href="/skype:SKYPENAME?add" className="position-absolute top-0 start-0 w-100 h-100" />
-									</div>
-									<div className="d-flex align-items-center mb-4 position-relative d-inline-flex">
-										<div className="bg-white icon-flip position-relative icon-shape icon-xxl border-linear-2 border-2 rounded-4">
-											<i className="ri-map-2-fill text-primary-1 fs-26" />
-										</div>
-										<div className="ps-3">
-											<span className="text-400 fs-5">Address</span>
-											<h6 className="mb-0">0811 Erdman Prairie, Joaville CA</h6>
-										</div>
-										<Link href="/https://maps.google.com/maps?q=1st+avenue,New+York" className="position-absolute top-0 start-0 w-100 h-100" />
-									</div>
-								</div>
-								<div className="col-lg-7 offset-lg-1 ps-lg-0 pt-5 pt-lg-0">
-									<div className="position-relative">
-										<div className="position-relative z-2">
-											<h3>Leave a messge</h3>
-											<form action="#">
-												<div className="row mt-3">
-													<div className="col-md-6 ">
-														<label className="mb-1 mt-3 text-dark" htmlFor="name">Your name <span className="text-primary-1">*</span></label>
-														<input type="text" className="form-control border rounded-3" id="name" name="name" placeholder="John Doe" aria-label="username" />
-													</div>
-													<div className="col-md-6">
-														<label className="mb-1 mt-3 text-dark" htmlFor="email">Email address <span className="text-primary-1">*</span></label>
-														<input type="text" className="form-control border rounded-3" id="email" name="email" placeholder="contact.john@gmail.com" aria-label="email" />
-													</div>
-													<div className="col-md-6">
-														<label className="mb-1 mt-3 text-dark" htmlFor="phone">Your phone <span className="text-primary-1">*</span></label>
-														<input type="text" className="form-control border rounded-3" id="phone" name="phone" placeholder="+01 234 567 89" aria-label="phone" />
-													</div>
-													<div className="col-md-6">
-														<label className="mb-1 mt-3 text-dark" htmlFor="subject">Subject <span className="text-primary-1">*</span></label>
-														<input type="text" className="form-control border rounded-3" id="subject" name="subject" placeholder="I want to contact for...." aria-label="subject" />
-													</div>
-													<div className="col-12">
-														<label className="mb-1 mt-3 text-dark" htmlFor="message">Message <span className="text-primary-1">*</span></label>
-														<textarea className="form-control border rounded-3 pb-10" id="message" name="message" placeholder="Your message here...." aria-label="With textarea" />
-													</div>
-													<div className="col-12">
-														<button type="submit" className="btn btn-gradient mt-3">
-															Send Message
-															<i className="ri-arrow-right-up-line" />
-														</button>
-													</div>
-												</div>
-											</form>
-										</div>
-										<div className="z-0 bg-primary-dark rectangle-bg z-1 rounded-3" />
-									</div>
-								</div>
-							</div>
-						</div>
-						<div className="scroll-move-right position-absolute bottom-0 start-50 translate-middle-x bg-900 overflow-hidden">
-							<div className="wow img-custom-anim-top">
-								<h3 className="stroke fs-280 text-lowercase text-900 mb-0 lh-1">JahazielMartinez</h3>
 							</div>
 						</div>
 					</section>
 				</div>
-
 			</Layout>
 		</>
 	)

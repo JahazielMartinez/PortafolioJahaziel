@@ -13,7 +13,7 @@ interface Certification {
   date: string;
 }
 
-export default function Pricing() {
+export default function Certifications() {
   const [certifications, setCertifications] = useState<Certification[]>([]);
   const [filteredCertifications, setFilteredCertifications] = useState<Certification[]>([]);
   const [loading, setLoading] = useState(true);
