@@ -7,8 +7,7 @@
       "dev": "next dev",
       "build": "next build",
       "start": "next start",
-      "lint": "next lint",
-      "clean-install": "rm -rf node_modules && rm -f package-lock.json && npm install"
+      "lint": "next lint"
     },
     "dependencies": {
       "@google-cloud/storage": "^7.15.0",
