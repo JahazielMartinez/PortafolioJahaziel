@@ -7,8 +7,8 @@ export default function Home1() {
 
 			<section className="section-hero-1 position-relative pt-200 pb-120 overflow-hidden">
 				<div className="container position-relative z-3">
-					<div className="row">
-						<div className="col-lg-6 col-md-12">
+					<div className="row justify-content-center">
+						<div className="col-lg-12 col-md-12 justify-content-center">
 							<span className="text-dark">👋 Hi there, I’m Jahaziel, and I’m here to lead digital innovation.👨‍💻 </span>
 							<h1 className="ds-2 mb-3">Innovating with <span className="text-primary-1">Tech / Leadership</span></h1>
 							<p className="text-300 mb-6">My mission is to transform ideas into intuitive digital products that elevate brands and enhance user experiences.</p>
