@@ -10,7 +10,7 @@ export default function Home1() {
 					<div className="row justify-content-center">
 						<div className="col-lg-12 col-md-12 justify-content-center">
 							<span className="text-dark">👋 Hi there, I’m Jahaziel, and I’m here to lead digital innovation.👨‍💻 </span>
-							<h1 className="ds-2 mb-3">Innovating with <span className="text-primary-1">Tech / Leadership</span></h1>
+							<h1 className="ds-2 mb-3">Innovating with <br /><span className="text-primary-1">UX-UI Design / Tech / Leadership</span></h1>
 							<p className="text-300 mb-6">My mission is to transform ideas into intuitive digital products that elevate brands and enhance user experiences.</p>
 							<Link href="https://firebasestorage.googleapis.com/v0/b/webdesignoficial-5dcdd.appspot.com/o/CV%2FJahazielDanielMarti%CC%81nezLorenzo%20Ingles.pdf?alt=media&token=3b69ba24-a508-4ea2-95e2-0d38c69412eb" className="btn btn-gradient me-2" target="_blank">
 								Download CV
