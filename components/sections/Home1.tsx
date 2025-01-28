@@ -16,11 +16,7 @@ export default function Home1() {
 								Download CV
 								<i className="ri-download-line ms-2" />
 							</Link>
-							<Link href="/#contact" className="btn btn-outline-secondary d-inline-flex align-items-center">
-								<span>Contact Me</span>
-								<i className="ri-arrow-right-line ms-2" />
-							</Link>
-							<p className="text-400 mt-6 mb-3">5+ years of experience in design, development, and leadership</p>
+							<p className="text-400 mt-6 mb-3">4+ years of experience in design, development, and leadership</p>
 							<div className="d-flex gap-3">
 								<div className="brand-logo icon-xl icon-shape rounded-3 bg-900">
 									<img src="/assets/imgs/hero/hero-1/brand-1.png" alt="brand" />
@@ -45,7 +41,7 @@ export default function Home1() {
 					</div>
 				</div>
 				<div className="shape-1 position-absolute bottom-0 start-50 z-1 ms-10 d-none d-md-block">
-					<img className="position-relative z-1 filter-gray" src="/assets/imgs/hero/hero-1/man.png" alt="man" />
+					{/* <img className="position-relative z-1 filter-gray" src="/assets/imgs/hero/hero-1/man.png" alt="man" /> */}
 					<div className="position-absolute top-50 start-0 translate-middle z-0 mt-8 ms-10 ps-8">
 						<img className="ribbonRotate" src="/assets/imgs/hero/hero-1/decorate.png" alt="" />
 					</div>

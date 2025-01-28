@@ -12,7 +12,7 @@ export default function Projects1() {
 			<div id="projects" className="section-projects-1 position-relative pt-120 pb-6 bg-900">
 				<div className="container">
 					<div className="row align-items-end">
-						<div className="col-lg-7 me-auto">
+						<div className="col-lg-12 me-auto">
 							<h3 className="ds-3 mt-3 mb-3 text-primary-1">What I’ve Accomplished</h3>
 							<span className="fs-5 fw-medium text-200">
 								A collection of certifications that showcase my commitment to continuous learning and expertise in technology, design, and leadership.

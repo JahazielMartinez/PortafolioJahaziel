@@ -1036,7 +1036,7 @@ img {
 
 .zelio .btn-gradient {
   --bs-btn-color: #ffffff;
-  --bs-btn-bg: linear-gradient(90deg, #6d4df2 0%, #8c71ff 100%);;
+  --bs-btn-bg: linear-gradient(90deg, #4cda25 0%, #2d8e12 100%);;
   --bs-btn-border-color: none;
   --bs-btn-hover-color: #ffffff;
   --bs-btn-hover-bg: linear-gradient(90deg, #6d4df2 0%, #8c71ff 100%);;
