@@ -1,3 +1,5 @@
+import path from 'path';
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true, // Habilita el modo estricto de React
@@ -6,8 +8,7 @@ const nextConfig = {
     OPENAI_API_KEY: process.env.OPENAI_API_KEY,
   },
   webpack: (config) => {
-    const path = require('path');
-    config.resolve.alias['@'] = path.resolve(__dirname);
+    config.resolve.alias['@'] = path.resolve('./'); // Cambia __dirname por './' en ESM
     return config;
   },
 };
