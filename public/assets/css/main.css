@@ -12,7 +12,7 @@ Table of contents
     04. Banner
     05. Slider
     06. About
-    07. Services
+    07. AboutMe
     08. Choose
     09. Project
     10. Certifications
@@ -14201,7 +14201,7 @@ strong {
   opacity: 1;
 }
 
-.section-home-3 .my-services .card-services .card__icon {
+.section-home-3 .my-about-me .card-about-me .card__icon {
   background-color: rgba(178, 164, 171, 0.2);
 }
 .section-home-3 .education .card-award .list-style-1 li::marker {
@@ -14217,7 +14217,7 @@ strong {
   --bs-border-color: #1f1f24;
   opacity: 0.5;
 }
-.section-home-3 .services .card-services .image-right {
+.section-home-3 .about-me .card-about-me .image-right {
   min-width: 164px;
 }
 .section-home-3 .swiper-pagination {

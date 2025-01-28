@@ -14,7 +14,7 @@ export default function Footer1() {
 								<Link href="/" className="fs-5">
 									Home
 								</Link>
-								<Link href="/services" className="fs-5">
+								<Link href="/about-me" className="fs-5">
 									About Me
 								</Link>
 								<Link href="/work" className="fs-5">

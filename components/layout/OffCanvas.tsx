@@ -16,34 +16,28 @@ export default function OffCanvas({ isOffCanvas, handleOffCanvas }: any) {
 							<p className="fs-6 fw-medium text-200 mb-5">I'm always excited to take on new projects and collaborate with innovative minds.</p>
 							<div className="mb-3">
 								<span className="text-400 fs-5">Phone Number</span>
-								<p className="mb-0">+1-234-567-8901</p>
+								<p className="mb-0">+52 55 8380 7733</p>
 							</div>
 							<div className="mb-3">
 								<span className="text-400 fs-5">Email</span>
-								<p className="mb-0">contact@JahazielMartinez</p>
+								<p className="mb-0">jahazielm3@gmail.com</p>
 							</div>
 							<div className="mb-3">
-								<span className="text-400 fs-5">Skype</span>
-								<p className="mb-0">WilliamDesignUX</p>
+								<span className="text-400 fs-5">Linkedin</span>
+								<p className="mb-0">Jdmloficial</p>
 							</div>
 							<div className="mb-3">
 								<span className="text-400 fs-5">Address</span>
-								<p className="mb-0">0811 Erdman Prairie Road, Joaville, California 90210</p>
+								<p className="mb-0">CDMX MX</p>
 							</div>
 						</div>
 						<div className="contact-list">
 							<p className="text-400 fs-5 mb-2">Social</p>
 							<div className="d-md-flex d-none gap-3">
-								<Link href="/http://facebook.com">
-									<i className="ri-facebook-circle-fill fs-18" />
-								</Link>
-								<Link href="/http://twitter.com">
-									<i className="ri-twitter-x-fill fs-18" />
-								</Link>
-								<Link href="/http://linkedin.com">
+								<Link target='_blank' href="https://www.linkedin.com/in/jdmloficial/">
 									<i className="ri-linkedin-fill fs-18" />
 								</Link>
-								<Link href="/http://github.com">
+								<Link target='_blank' href="https://github.com/JahazielMartinez">
 									<i className="ri-github-fill fs-18" />
 								</Link>
 							</div>

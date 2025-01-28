@@ -2,7 +2,7 @@
 import Layout from "@/components/layout/Layout"
 import Skills2 from "@/components/sections/Skills2"
 import Link from "next/link"
-export default function Services() {
+export default function AboutMe() {
 
 	return (
 		<>

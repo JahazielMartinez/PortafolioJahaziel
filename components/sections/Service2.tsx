@@ -5,7 +5,7 @@ export default function Service2() {
 	return (
 		<>
 
-			<section id="services" className="section-service-2 pt-5">
+			<section id="about-me" className="section-service-2 pt-5">
 				<div className="container">
 					<div className="rounded-3 border border-1 position-relative overflow-hidden">
 						<div className="box-linear-animation position-relative z-1 p-lg-5 p-1 p-md-4">
@@ -90,7 +90,7 @@ export default function Service2() {
 									</div>
 								</div>
 							</div>
-							<img className="position-absolute top-0 start-0 z-0" src="assets/imgs/home-page-2/services/bg.png" alt="zelio" />
+							<img className="position-absolute top-0 start-0 z-0" src="assets/imgs/home-page-2/about-me/bg.png" alt="zelio" />
 						</div>
 					</div>
 				</div>

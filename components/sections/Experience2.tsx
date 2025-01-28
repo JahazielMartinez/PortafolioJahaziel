@@ -83,7 +83,7 @@ export default function Experience2() {
 									</div>
 								</div>
 							</div>
-							<img className="position-absolute top-0 start-0 z-0" src="assets/imgs/home-page-2/services/bg.png" alt="zelio" />
+							<img className="position-absolute top-0 start-0 z-0" src="assets/imgs/home-page-2/about-me/bg.png" alt="zelio" />
 						</div>
 					</div>
 				</div>

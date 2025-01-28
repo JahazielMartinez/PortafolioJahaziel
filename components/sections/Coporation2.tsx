@@ -177,7 +177,7 @@ export default function Coporation2() {
 										<li className="position-relative z-1">
 											<div className="d-flex align-items-center gap-2">
 												<p className="text-300 text-nowrap">15 Jul:</p>
-												<span className="text-dark">Muzzilla-streaming-API-services-for-Python</span>
+												<span className="text-dark">Muzzilla-streaming-API-about-me-for-Python</span>
 											</div>
 										</li>
 										<li className="position-relative z-1">

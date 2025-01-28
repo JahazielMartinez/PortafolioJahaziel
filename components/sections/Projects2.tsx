@@ -187,7 +187,7 @@ export default function Projects2() {
 															<h4 className="text-linear-4">
 																Custom Printing Solutions Website
 															</h4>
-															<p>I designed and developed the OnPointCR website, a platform specializing in personalized printing services for promotional items. The site showcases various services, including merchandise customization, corporate gifts, and event-exclusive products. It also details the printing techniques employed, such as screen printing, pad printing, laser engraving, DTF textile/UV printing, and embroidery.</p>
+															<p>I designed and developed the OnPointCR website, a platform specializing in personalized printing about-me for promotional items. The site showcases various about-me, including merchandise customization, corporate gifts, and event-exclusive products. It also details the printing techniques employed, such as screen printing, pad printing, laser engraving, DTF textile/UV printing, and embroidery.</p>
 															<ul className="mt-4 list-unstyled">
 																<li className="text-secondary-2 mb-3 border-bottom pb-3">Project Info</li>
 																<li className="text-dark mb-3 border-bottom pb-3">

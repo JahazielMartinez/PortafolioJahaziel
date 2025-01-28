@@ -28,7 +28,7 @@ export default function Header2({ scroll, isMobileMenu, handleMobileMenu,isOffCa
 												<Link className="nav-link" href="#resume">Resume</Link>
 											</li>
 											<li className="nav-item">
-												<Link className="nav-link" href="#services">Services</Link>
+												<Link className="nav-link" href="#about-me">AboutMe</Link>
 											</li>
 											<li className="nav-item">
 												<Link className="nav-link" href="#portfolio">Portfolio</Link>

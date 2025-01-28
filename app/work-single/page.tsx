@@ -38,7 +38,7 @@ export default function WorkSingle() {
 										<h6>01 June 2024</h6>
 									</div>
 									<div className="bg-6 px-5 py-3 rounded-2">
-										<p className="text-300 mb-0">Services</p>
+										<p className="text-300 mb-0">AboutMe</p>
 										<h6>UI/UX Design</h6>
 									</div>
 									<div className="bg-6 px-5 py-3 rounded-2">
