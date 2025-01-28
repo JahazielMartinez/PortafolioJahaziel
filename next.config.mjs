@@ -5,6 +5,11 @@ const nextConfig = {
     GOOGLE_APPLICATION_CREDENTIALS: './util/jdml-448601-590ad229d2aa.json',
     OPENAI_API_KEY: process.env.OPENAI_API_KEY,
   },
+  webpack: (config) => {
+    const path = require('path');
+    config.resolve.alias['@'] = path.resolve(__dirname);
+    return config;
+  },
 };
 
 export default nextConfig;
