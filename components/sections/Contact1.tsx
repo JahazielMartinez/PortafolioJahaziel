@@ -24,14 +24,20 @@ export default function Contact1() {
         e.preventDefault();
         setStatus("Enviando...");
         try {
-            await addDoc(collection(db, "contacts"), formData);
+            await addDoc(collection(db, "contacts"), {
+                ...formData, // Campos del formulario
+                timestamp: new Date(), // ¡Así está correcto!
+            });
             setStatus("Mensaje enviado con éxito");
-            setFormData({ name: "", email: "", phone: "", subject: "", message: "" }); // Limpia el formulario
+            setFormData({ name: "", email: "", phone: "", subject: "", message: "" });
         } catch (error) {
             console.error("Error al enviar el mensaje:", error);
             setStatus("Error al enviar el mensaje");
         }
     };
+    
+
+    
 
     return (
         <>
