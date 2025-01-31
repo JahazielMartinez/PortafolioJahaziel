@@ -108,17 +108,41 @@ export default function Certifications() {
         <section className="section-certifications-1 -130 pb-150">
           <div className="container">
             <div className="button-group filter-button-group filter-menu-active text-center">
+              {/* All */}
               <button className={activeBtn("*")} onClick={handleFilterKeyChange("*")}>
-                All Certifications
+                All
               </button>
-              <button className={activeBtn("UX")} onClick={handleFilterKeyChange("UX")}>
+              {/* Crecimiento */}
+              <button className={activeBtn("Crecimiento")} onClick={handleFilterKeyChange("Crecimiento")}>
+                Growth
+              </button>
+              {/* Ingeniería */}
+              <button className={activeBtn("Desarrollo")} onClick={handleFilterKeyChange("Desarrollo")}>
+                Engineering
+              </button>
+              {/* UX/UI */}
+              <button className={activeBtn("UX")} onClick={handleFilterKeyChange("UX-UI")}>
                 UX/UI
               </button>
-              <button className={activeBtn("Web Design")} onClick={handleFilterKeyChange("Web Design")}>
-                Web Design
+                {/* Ingles */}
+              <button className={activeBtn("English")} onClick={handleFilterKeyChange("English")}>
+                English
               </button>
-              <button className={activeBtn("Leadership")} onClick={handleFilterKeyChange("Leadership")}>
+              {/* Marketing */}
+              <button className={activeBtn("Marketing")} onClick={handleFilterKeyChange("Marketing")}>
+                Marketing
+              </button>
+              {/* Liderazgo */}
+              <button className={activeBtn("Liderazgo")} onClick={handleFilterKeyChange("Liderazgo")}>
                 Leadership
+              </button>
+              {/* Redes */}
+              <button className={activeBtn("Redes")} onClick={handleFilterKeyChange("Redes")}>
+                Networks
+              </button>
+              {/* Video */}
+              <button className={activeBtn("Video")} onClick={handleFilterKeyChange("Video")}>
+                Video
               </button>
             </div>
 

@@ -14372,7 +14372,20 @@ strong {
   background-size: 200% 100%;
   animation: skeleton-loading 1.5s infinite;
   border-radius: 8px;
+  position: relative; /* Permite posicionar el texto */
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
+.skeleton-text-overlay {
+  position: absolute;
+  color: #c3c3c3; /* Color gris oscuro */
+  font-size: 16px;
+  font-weight: 800;
+  text-align: center;
+}
+
 
 .skeleton-title {
   width: 80%;
@@ -14391,6 +14404,16 @@ strong {
   animation: skeleton-loading 1.5s infinite;
   border-radius: 4px;
 }
+
+@keyframes skeleton-loading {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
 
 .bg-primary {
   background-color: #4cda25 !important; /* Azul o color de tu elección */
