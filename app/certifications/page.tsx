@@ -3,7 +3,7 @@
 import Layout from "@/components/layout/Layout";
 import SkeletonLoader from "@/components/common/SkeletonLoader";
 import Link from "next/link";
-import { useCallback, useEffect, useState } from "react";
+import { useEffect, useState, useCallback } from "react";
 
 interface Certification {
   name: string;
@@ -12,6 +12,7 @@ interface Certification {
   category: string;
   date: string;
 }
+
 
 export default function Certifications() {
   const [certifications, setCertifications] = useState<Certification[]>([]);
@@ -26,25 +27,25 @@ export default function Certifications() {
   useEffect(() => {
     const fetchCertifications = async () => {
       try {
-        // Verifica si los datos ya están en localStorage
+        // Verificar si ya hay datos en localStorage
         const storedCertifications = localStorage.getItem("certifications");
         if (storedCertifications) {
           const parsedCertifications = JSON.parse(storedCertifications);
           setCertifications(parsedCertifications);
           setFilteredCertifications(parsedCertifications);
           setLoading(false);
-          return; // Si ya hay datos, no hace falta hacer la petición
+          return;
         }
 
-        // Si no están en localStorage, hace la petición
-        const response = await fetch("/api/fetchCertifications");
+        // Cargar datos desde public/certifications.json
+        const response = await fetch("/certifications.json");
         if (!response.ok) throw new Error("Error fetching certifications");
 
         const data: Certification[] = await response.json();
         setCertifications(data);
         setFilteredCertifications(data);
 
-        // Guarda los datos en localStorage
+        // Guardar en localStorage para evitar cargas repetidas
         localStorage.setItem("certifications", JSON.stringify(data));
       } catch (error) {
         console.error("Error fetching certifications:", error);
@@ -60,7 +61,11 @@ export default function Certifications() {
     if (filterKey === "*") {
       setFilteredCertifications(certifications);
     } else {
-      setFilteredCertifications(certifications.filter((cert) => cert.category === filterKey));
+      setFilteredCertifications(
+        certifications.filter(
+          (cert) => cert.category.toLowerCase() === filterKey.toLowerCase()
+        )
+      );
     }
     setCurrentPage(1); // Reinicia la paginación al cambiar el filtro
   }, [filterKey, certifications]);
@@ -87,7 +92,7 @@ export default function Certifications() {
 
   return (
     <Layout headerStyle={1} footerStyle={1}>
-      <section className="pt-10 ">
+      <section className="pt-10">
         <div className="container">
           <div className="row">
             <div className="col-lg-8 mx-lg-auto mb-8">
@@ -98,6 +103,7 @@ export default function Certifications() {
                 <p className="text-300 fs-5 mb-0">
                   A journey through my professional achievements, reflecting commitment to innovation, quality, and continuous development.
                 </p>
+                <p className="text-300 fs-5 mt-2">Total Certifications: {certifications.length}</p>
               </div>
             </div>
           </div>
@@ -108,60 +114,26 @@ export default function Certifications() {
         <section className="section-certifications-1 -130 pb-150">
           <div className="container">
             <div className="button-group filter-button-group filter-menu-active text-center">
-              {/* All */}
-              <button className={activeBtn("*")} onClick={handleFilterKeyChange("*")}>
-                All
-              </button>
-              {/* Crecimiento */}
-              <button className={activeBtn("Crecimiento")} onClick={handleFilterKeyChange("Crecimiento")}>
-                Growth
-              </button>
-              {/* Ingeniería */}
-              <button className={activeBtn("Desarrollo")} onClick={handleFilterKeyChange("Desarrollo")}>
-                Engineering
-              </button>
-              {/* UX/UI */}
-              <button className={activeBtn("UX")} onClick={handleFilterKeyChange("UX-UI")}>
-                UX/UI
-              </button>
-                {/* Ingles */}
-              <button className={activeBtn("English")} onClick={handleFilterKeyChange("English")}>
-                English
-              </button>
-              {/* Marketing */}
-              <button className={activeBtn("Marketing")} onClick={handleFilterKeyChange("Marketing")}>
-                Marketing
-              </button>
-              {/* Liderazgo */}
-              <button className={activeBtn("Liderazgo")} onClick={handleFilterKeyChange("Liderazgo")}>
-                Leadership
-              </button>
-              {/* Redes */}
-              <button className={activeBtn("Redes")} onClick={handleFilterKeyChange("Redes")}>
-                Networks
-              </button>
-              {/* Video */}
-              <button className={activeBtn("Video")} onClick={handleFilterKeyChange("Video")}>
-                Video
-              </button>
+              {/* Filtros */}
+              {["*", "Crecimiento", "Ingenieria", "UX-UI", "Ingles", "Marketing", "Liderazgo", "Redes", "Video"].map(
+                (category) => (
+                  <button key={category} className={activeBtn(category)} onClick={handleFilterKeyChange(category)}>
+                    {category === "*" ? "All": category}
+                  </button>
+                )
+              )}
             </div>
 
             <div className="row mt-7 masonry-active">
               {loading ? (
                 Array.from({ length: 9 }).map((_, index) => (
-                  <div
-                    key={index}
-                    className="col-lg-4 col-md-6 col-sm-12 mb-4"
-                  >
+                  <div key={index} className="col-lg-4 col-md-6 col-sm-12 mb-4">
                     <SkeletonLoader />
                   </div>
                 ))
               ) : paginatedCertifications.length > 0 ? (
                 paginatedCertifications.map((cert, index) => (
-                  <div
-                    key={index}
-                    className="col-lg-4 col-md-6 col-sm-12 mb-4 filter-item"
-                  >
+                  <div key={index} className="col-lg-4 col-md-6 col-sm-12 mb-4 filter-item">
                     <div className="blog-card rounded-4 mb-lg-3 mb-md-5 mb-3">
                       <div className="blog-card__image position-relative">
                         <div className="zoom-img rounded-3 overflow-hidden">
@@ -255,7 +227,6 @@ export default function Certifications() {
                 </div>
               </div>
             </div>
-
           </div>
         </section>
       </div>
