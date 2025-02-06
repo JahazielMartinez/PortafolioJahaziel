@@ -1,6 +1,7 @@
 'use client'
 import Link from "next/link"
 import CountUp from 'react-countup'
+import Skills2 from "@/components/sections/Skills2"
 export default function Skills1() {
 	return (
 		<>
@@ -78,6 +79,11 @@ export default function Skills1() {
 									<p className="text-400 fw-medium text-uppercase">AWS</p>
 								</div>
 							</div>
+						</div>
+
+						<div className="d-flex flex-wrap flex-lg-nowrap mb-1 px-6">
+							{/* Skills 2*/}
+							<Skills2 />
 						</div>
 						<div className="text-center">
 							<p className="fs-5 text-200 mb-0">In addition, I have expertise in integrating design with development, ensuring seamless collaboration between creative and technical teams. </p>
