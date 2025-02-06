@@ -93,7 +93,7 @@ export default function Resume1() {
 									<div className="resume-card-item px-4 py-3 mt-4">
 										<p className="fw-extra-bold text-linear-1 mb-2">February 2019 - November 2021</p>
 										<h5>Ministerios La Hermosa</h5>
-										<p className="text-300 mb-0">Multimedia Team Leader</p>
+										<p className="text-300 mb-0">Multimedia/Dev Team Leader</p>
 									</div>
 								</div>
 							</div>
@@ -102,7 +102,7 @@ export default function Resume1() {
 				</div>
 				<div className="scroll-move-right position-relative pb-160 pt-lg-150">
 					<div className="d-flex align-items-center gap-5 wow img-custom-anim-top position-absolute top-50 start-50 translate-middle">
-						<h3 className="stroke fs-150 text-uppercase text-white">Leadership . Product Design	. E-commerce</h3>
+						<h3 className="stroke fs-150 text-uppercase text-white">JavaScript . NextJS	. Tailnwind</h3>
 					</div>
 				</div>
 			</section>

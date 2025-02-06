@@ -1,5 +1,6 @@
 
 import Link from "next/link"
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 export default function Home1() {
 	return (
@@ -10,7 +11,7 @@ export default function Home1() {
 					<div className="row justify-content-center">
 						<div className="col-lg-12 col-md-12 justify-content-center">
 							<span className="text-dark">👋 Hi there, I’m Jahaziel 👨‍💻 Building Scalable & Intuitive Tech Solutions</span>
-							<h1 className="ds-2 mb-3"> Full Stack Development / Software Architecture <span className="text-primary-1">/ UX-UI & IT Leadership</span></h1>
+							<h1 className="ds-2 mb-3"> Full Stack / Software Architecture <br /><span className="text-primary-1">/ UX-UI & IT Leadership</span></h1>
 							<p className="text-300 mb-6">Keeping innovation, usability, and performance at the core.</p>
 							<Link href="https://firebasestorage.googleapis.com/v0/b/webdesignoficial-5dcdd.appspot.com/o/CV%2FJahazielDanielMarti%CC%81nezLorenzo%20Ingles.pdf?alt=media&token=3b69ba24-a508-4ea2-95e2-0d38c69412eb" className="btn btn-gradient me-2" target="_blank">
 								Download CV
@@ -48,7 +49,7 @@ export default function Home1() {
 				</div>
 				<div className="position-absolute top-0 start-0 w-100 h-100 filter-invert" data-background="assets/imgs/hero/hero-1/background.png" />
 			</section>
-
+			<SpeedInsights/>
 		</>
 	)
 }
