@@ -14423,3 +14423,12 @@ strong {
   padding-left: 0px;
   padding-right: 0px;
 }
+
+
+.img-projects{
+  width: 100%;
+  height: 216px; /* Ajusta según sea necesario */
+  object-fit: cover; /* Evita la distorsión manteniendo la relación de aspecto */
+  object-position: top; 
+  
+}

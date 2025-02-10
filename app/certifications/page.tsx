@@ -92,7 +92,7 @@ export default function Certifications() {
 
   return (
     <Layout headerStyle={1} footerStyle={1}>
-      <section className="pt-10">
+      <section className="pt-9">
         <div className="container">
           <div className="row">
             <div className="col-lg-8 mx-lg-auto mb-8">
